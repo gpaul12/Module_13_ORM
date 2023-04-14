@@ -1,18 +1,18 @@
-const Sequelize = require('sequelize');
+const Sequelize = require("sequelize");
 
 // Create a connection object
 const sequelize = new Sequelize(
   // Database name
-  'library_db',
+  "library_db",
   // User
-  'root',
+  "root",
   // Password
-  'myPassword',
+  "12345",
   {
     // Database location
-    host: 'localhost',
-    dialect: 'mysql',
-    port: 3306
+    host: "localhost",
+    dialect: "mysql",
+    port: 3306,
   }
 );
 
